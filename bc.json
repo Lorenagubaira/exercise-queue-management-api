@@ -1,0 +1,12 @@
+{
+	"slug" : "queue-management-api",
+	"title" : "Queue Managment API",
+	"description": "Develop and API that integrates with Twilio.com to recreate a Queue Managment System similar to ",
+	"status": "published",
+	"live-url": "",
+	"preview": "https://github.com/breatheco-de/exercise-queue-management-api/blob/master/preview.png?raw=true",
+	"duration" : 8,
+	"difficulty": "intermediate",
+	"technologies": ["flask", "python", "json", "static files", "logging"],
+	"talents": []
+}
