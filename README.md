@@ -7,11 +7,24 @@ Queue systems can also be used to load balancing for different applications like
 - Network packages.
 - etc.
 
+## 🌱  How to start this project
+
+Do not clone this repository.
+
+The first step to start coding is cloning the [python boilerplate](https://github.com/4GeeksAcademy/flask-rest-hello) on your local computer or opening it using gitpod.
+
+a) If using Gitpod you can clone the boilerplate by [clicking here](https://github.com/4GeeksAcademy/flask-rest-hello).
+b) If working locally type the following command from your command line: `https://github.com/4GeeksAcademy/flask-rest-hello`.
+
+💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
+
+
+
+
 ## 📝 Instructions
 
-1. Clone the following boilerplate for [python/django](https://github.com/breatheco-de/exercise-queue-management-django) and the following for [python/flask](https://github.com/4GeeksAcademy/flask-rest-hello).
-2. The API has to integrate with Twillio API to be able to send SMS to notify users when their turn has arrived.
-3. Create an API that allows clients to manage a simple Queue, use the following data-structure to implement the queue:
+- The API has to integrate with Twillio API to be able to send SMS to notify users when their turn has arrived.
+- Create an API that allows clients to manage a simple Queue, use the following data-structure to implement the queue:
 
 ```py
 class Queue:
