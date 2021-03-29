@@ -11,7 +11,7 @@ Queue systems can also be used to load balancing for different applications like
 
 Do not clone this repository.
 
-The first step to start coding is cloning the [python boilerplate](https://github.com/4GeeksAcademy/flask-rest-hello) on your local computer or opening it using gitpod.
+The first step to start coding is cloning the [flask boilerplate](https://github.com/4GeeksAcademy/flask-rest-hello) on your local computer or opening it using gitpod.
 
 a) If using Gitpod you can clone the boilerplate by [clicking here](https://github.com/4GeeksAcademy/flask-rest-hello).
 b) If working locally type the following command from your command line: `https://github.com/4GeeksAcademy/flask-rest-hello`.
