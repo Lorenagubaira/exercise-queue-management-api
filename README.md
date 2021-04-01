@@ -9,12 +9,20 @@ Queue systems can also be used to load balancing for different applications like
 
 ## 🌱  How to start this project
 
+PYTHON BOILERPLATE ENGLISH
+
+## 🌱  How to start this project
+
 Do not clone this repository.
 
-The first step to start coding is cloning the [vanillajs + flask boilerplate](https://tinyurl.com/yfj4grel) on your local computer or opening it using gitpod.
+The first step to start coding is cloning the [python boilerplate](https://github.com/4GeeksAcademy/flask-rest-hello) on your local computer or opening it using gitpod.
 
-a) If using Gitpod you can clone the boilerplate by [clicking here](https://tinyurl.com/yfj4grel).
-b) If working locally type the following command from your command line: `https://tinyurl.com/yfj4grel`.
+a) If using Gitpod (recommended) you can clone the boilerplate by [clicking here](https://github.com/4GeeksAcademy/flask-rest-hello).
+
+b) If working locally type the following command from your command line: 
+```sh
+https://github.com/4GeeksAcademy/flask-rest-hello`
+```
 
 💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
 
