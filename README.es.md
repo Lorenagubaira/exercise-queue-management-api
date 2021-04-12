@@ -7,11 +7,24 @@ Los sistemas de fila también se pueden usar para equilibrar la carga de diferen
 - Paquetes de red.
 - etc.
 
+
+## 🌱  Cómo iniciar este proyecto
+
+ No clones este repositorio. El primer paso para comenzar a codificar es clonar el [flask boilerplate](https://github.com/4GeeksAcademy/flask-rest-hello) en tu compjutador local o con Gitpod.
+
+a) Si usas Gitpod (recomendada) puedes clonar el boilerplate [clic aquí](https://github.com/4GeeksAcademy/flask-rest-hello).
+
+b) Si trabajas localmente, escribe el siguiente comando en tu terminal: 
+```sh
+git clone  git clone https://github.com/4GeeksAcademy/flask-rest-hello
+```
+💡 Importante: Recuerda actualizar el `remote` del proyecto con el de tu repositorio usando `git remote set-url origin <your new url>`, y luego guardar tu código en tu nuevo repositorio usando `add`, `commit` y `push`.
+
+
 ## 📝 Instrucciones
 
-1. Clona el siguiente texto para [python/django](https://github.com/breatheco-de/exercise-queue-management-django) y lo siguiente para [python/flask](https://github.com/4GeeksAcademy/flask-rest-hello).
-2. La API debe integrarse con Twilio para poder enviar SMS para notificar a los usuarios cuando llegue su turno.
-3. Crea una API que permita a los clientes administrar una fila simple, use la siguiente estructura de datos para implementar la fila:
++ La API debe integrarse con Twilio para poder enviar SMS para notificar a los usuarios cuando llegue su turno.
++ Crea una API que permita a los clientes administrar una fila simple, usa la siguiente estructura de datos para implementar la fila:
 
 ```py
 class Queue:

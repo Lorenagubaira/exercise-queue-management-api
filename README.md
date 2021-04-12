@@ -9,10 +9,6 @@ Queue systems can also be used to load balancing for different applications like
 
 ## 🌱  How to start this project
 
-PYTHON BOILERPLATE ENGLISH
-
-## 🌱  How to start this project
-
 Do not clone this repository.
 
 The first step to start coding is cloning the [python boilerplate](https://github.com/4GeeksAcademy/flask-rest-hello) on your local computer or opening it using gitpod.
