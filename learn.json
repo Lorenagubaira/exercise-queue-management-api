@@ -9,5 +9,7 @@
 	"duration" : 8,
 	"difficulty": "intermediate",
 	"technologies": ["flask", "python", "json", "static files", "logging"],
-	"talents": []
+	"talents": [],
+    "autoPlay": false,
+    "projectType": "project"
 }
