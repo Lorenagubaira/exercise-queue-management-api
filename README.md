@@ -1,9 +1,13 @@
-# ![alt text](https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=breathecode,32) SMS Queue Management System
+<!--hide-->
+# SMS Queue Management System
+<!--endhide-->
 
-Lets create a Queue System: Queue system are heavily used in Goverment institutions, airports, banks and many other venues looking to organize the incoming traffic.
+Let's create a Queue System: Queue systems are heavily used in Government institutions, airports, banks, and many other venues looking to organize the incoming traffic.
+
 Queue systems can also be used to load balancing for different applications like:
-- Stablishing priorities in web servers incoming requests.
-- Inmigration and visa applicantions that need to be prioritized.
+
+- Establishing priorities in web servers' incoming requests.
+- Immigration and visa applications that need to be prioritized.
 - Network packages.
 - etc.
 
@@ -15,18 +19,18 @@ The first step to start coding is cloning the [python boilerplate](https://githu
 
 a) If using Gitpod (recommended) you can clone the boilerplate by [clicking here](https://github.com/4GeeksAcademy/flask-rest-hello).
 
-b) If working locally type the following command from your command line: 
+b) If working locally, type the following command from your command line: 
 ```sh
 https://github.com/4GeeksAcademy/flask-rest-hello`
 ```
 
 💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
 
-
 ## 📝 Instructions
 
 - The API has to integrate with Twillio API to be able to send SMS to notify users when their turn has arrived.
-- Create an API that allows clients to manage a simple Queue, use the following data-structure to implement the queue:
+
+- Create an API that allows clients to manage a simple Queue, and use the following data structure to implement the queue:
 
 ```py
 class Queue:
@@ -43,9 +47,9 @@ class Queue:
         return len(self._queue) 
 ```
 
-## Example worlflow
+## Example workflow
 
-1. The API receives a request tp add Bob into the queue (`POST /new`) with any particular priority (FIFO or LIFO).
+1. The API receives a request to add Bob into the queue (`POST /new`) with any particular priority (FIFO or LIFO).
 2. The API ads Bob and notifies him with an SMS confirmation, the SMS must say how many people are in front of him on the line.
 3. The system now waits until the enpoint `GET /next` gets executed to process the person on the queue.
 4. Every time a `GET /next` request is received, the next person on the queue gets processed until it is Bob's turn.
@@ -55,16 +59,16 @@ class Queue:
 
 1. You have to create 3 endpoints for your API:
 
-- POST `/new`: Will recive information about a user and ad him into the queue.  
+- POST `/new`: Will receive information about a user and add him to the queue.  
 - GET `/next`: Will process one spot of the queue.  
-- GET `/all`: Will return a list with everyone that is pending to be processed (the current queue) . 
+- GET `/all`: Will return a list with everyone that is pending to be processed (the current queue). 
 
 ## 📖 Fundamentals
 
 This exercise will make you practice the following fundamentals:
 
-1. Here you can find the information on [how to send an sms with twillio](https://www.twilio.com/docs/sms/send-messages), you will have to register and account (free) and also register a number (free)
-4. Building an RESTful API
+1. Here you can find the information on [how to send a sms with twillio](https://www.twilio.com/docs/sms/send-messages), you will have to register an account (free) and also register a number (free)
+4. Building a RESTful API
 5. Complex Data Structures.
 6. Queue (FIFO vs FILO)
 7. SMS.

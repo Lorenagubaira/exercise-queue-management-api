@@ -1,7 +1,11 @@
-# ![alt text](https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=breathecode,32) Sistema de gestión de filas SMS
+<!--hide-->
+# Sistema de gestión de filas SMS
+<!--endhide-->
 
 Permite crear un sistema de filas: el sistema de filas se utiliza en gran medida en las instituciones gubernamentales, aeropuertos, bancos y muchos otros lugares que buscan organizar el tráfico entrante.
+
 Los sistemas de fila también se pueden usar para equilibrar la carga de diferentes aplicaciones como:
+
 - Establecimiento de prioridades en las solicitudes entrantes de servidores web.
 - Inmigración y solicitudes de visa que deben ser priorizadas.
 - Paquetes de red.
@@ -10,7 +14,7 @@ Los sistemas de fila también se pueden usar para equilibrar la carga de diferen
 
 ## 🌱  Cómo iniciar este proyecto
 
- No clones este repositorio. El primer paso para comenzar a codificar es clonar el [flask boilerplate](https://github.com/4GeeksAcademy/flask-rest-hello) en tu compjutador local o con Gitpod.
+ No clones este repositorio. El primer paso para comenzar a codificar es clonar el [flask boilerplate](https://github.com/4GeeksAcademy/flask-rest-hello) en tu computador local o con Gitpod.
 
 a) Si usas Gitpod (recomendada) puedes clonar el boilerplate [clic aquí](https://github.com/4GeeksAcademy/flask-rest-hello).
 
@@ -51,7 +55,7 @@ class Queue:
 
 ## Más Detalles
 
-1. Tu debes crear 3 endpoints para tu API:
+1. Tú debes crear 3 endpoints para tu API:
 
 - POST `/new`: Recibirá información sobre un usuario y lo agregará a la fila.
 - GET `/next`: Se procesará un punto de la fila.
@@ -61,8 +65,8 @@ class Queue:
 
 Este ejercicio te hará practicar los siguientes fundamentos:
 
-1. Aquí puedes encontrar information sobre [como enviar un sms con twillio](https://www.twilio.com/docs/sms/send-messages), tendrás que registrarse y crear una cuenta (gratis) y también registrar un número (gratis)
-4. Construir una RESTful API
+1. Aquí puedes encontrar información sobre [como enviar un sms con twillio](https://www.twilio.com/docs/sms/send-messages), tendrás que registrarse y crear una cuenta (gratis) y también registrar un número (gratis)
+4. Construir RESTful API
 5. Estructuras de datos complejas.
 6. Queue (FIFO vs FILO)
 7. SMS.
