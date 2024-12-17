@@ -11,19 +11,23 @@ Los sistemas de fila también se pueden usar para equilibrar la carga de diferen
 - Paquetes de red.
 - etc.
 
+<onlyfor saas="false" withBanner="false">
 
 ## 🌱  Cómo iniciar este proyecto
 
- No clones este repositorio. El primer paso para comenzar a codificar es clonar el [flask boilerplate](https://github.com/4GeeksAcademy/flask-rest-hello) en tu computador local o con Gitpod.
+No clones este repositorio porque usaremos una plantilla diferente.  
 
-a) Si usas Gitpod (recomendada) puedes clonar el boilerplate [clic aquí](https://github.com/4GeeksAcademy/flask-rest-hello).
+Recomendamos abrir el `flask boilerplate`, utilizando una herramienta de aprovisionamiento como [Codespaces](https://4geeks.com/es/lesson/tutorial-de-github-codespaces) (recomendado) o [Gitpod](https://4geeks.com/es/lesson/como-utilizar-gitpod). Alternativamente, puedes [clonar el repositorio de GitHub](https://4geeks.com/es/how-to/como-clonar-un-repositorio-de-github) en tu computadora local utilizando el comando `git clone`.  
 
-b) Si trabajas localmente, escribe el siguiente comando en tu terminal: 
+Este es el repositorio que necesitas abrir o clonar:  
+
 ```sh
-git clone  git clone https://github.com/4GeeksAcademy/flask-rest-hello
+$ git clone https://github.com/4GeeksAcademy/flask-rest-hello
 ```
+
 💡 Importante: Recuerda actualizar el `remote` del proyecto con el de tu repositorio usando `git remote set-url origin <your new url>`, y luego guardar tu código en tu nuevo repositorio usando `add`, `commit` y `push`.
 
+</onlyfor>
 
 ## 📝 Instrucciones
 
