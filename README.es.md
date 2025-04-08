@@ -11,7 +11,7 @@ Los sistemas de fila también se pueden usar para equilibrar la carga de diferen
 - Paquetes de red.
 - etc.
 
-<onlyfor saas="false" withBanner="false">
+<how-to-start>
 
 ## 🌱  Cómo iniciar este proyecto
 
@@ -27,7 +27,7 @@ $ git clone https://github.com/4GeeksAcademy/flask-rest-hello
 
 💡 Importante: Recuerda actualizar el `remote` del proyecto con el de tu repositorio usando `git remote set-url origin <your new url>`, y luego guardar tu código en tu nuevo repositorio usando `add`, `commit` y `push`.
 
-</onlyfor>
+</how-to-start>
 
 ## 📝 Instrucciones
 
