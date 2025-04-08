@@ -1,7 +1,13 @@
 {
 	"slug" : "queue-management-api",
-	"title" : "Queue Managment API",
-	"description": "Develop and API that integrates with Twilio.com to recreate a Queue Managment System similar to ",
+	"title" : {
+		"us": "Queue Managment API",
+		"es": "API de gestión de colas"
+	},
+	"description" : {
+		"us":"Build a queue management API using Python and Flask that integrates with Twilio to send SMS notifications. Learn how to implement FIFO and LIFO logic, manage users in a queue, and create RESTful endpoints to add, process, and view users waiting in line.",
+		"es":"Crea una API de gestión de colas usando Python y Flask que se integre con Twilio para enviar notificaciones por SMS. Aprende a implementar lógica FIFO y LIFO, gestionar usuarios en una cola y crear endpoints RESTful para agregar, procesar y visualizar usuarios en espera."
+    },
 	"status": "published",
 	"translations": ["es", "us"],
 	"live-url": "",
@@ -12,5 +18,8 @@
 	"technologies": ["flask", "python", "json", "static files", "logging"],
 	"talents": [],
     "autoPlay": false,
-    "projectType": "project"
+    "projectType": "project",
+	"telemetry": {
+	    	"batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=184"
+	  }
 }
