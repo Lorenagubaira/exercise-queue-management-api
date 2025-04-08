@@ -11,7 +11,7 @@ Queue systems can also be used to load balancing for different applications like
 - Network packages.
 - etc.
 
-<onlyfor saas="false" withBanner="false">
+<how-to-start>
 
 ## 🌱  How to start this project
 
@@ -27,7 +27,7 @@ $ git clone https://github.com/4GeeksAcademy/flask-rest-hello
 
 💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
 
-</onlyfor>
+</how-to-start>
 
 ## 📝 Instructions
 
